@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ArrowDown, FileText, Mail } from 'lucide-react';
+import { ArrowDown, FileText, Mail, Notebook } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 export function Hero() {

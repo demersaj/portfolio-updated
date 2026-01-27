@@ -4,7 +4,7 @@ import {
   Code2, Database, Globe, Layout, 
   BarChart3, Eye, Target, GitBranch, 
   Cloud, Palette, Bot, Workflow,
-  Layers, Cpu, MessageSquare, Sparkles
+  Layers, Cpu, MessageSquare, Sparkles, Notebook
 } from 'lucide-react';
 
 const skillCategories = [
@@ -41,6 +41,9 @@ const skillCategories = [
       { name: 'Hugging Face', icon: Bot },
       { name: 'LangChain', icon: Workflow },
       { name: 'n8n', icon: Workflow },
+      { name: 'Claude Skills', icon: Bot },
+      { name: 'Jupyter Notebooks', icon: Notebook },
+
     ],
   },
 ];
