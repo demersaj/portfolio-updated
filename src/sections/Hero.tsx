@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ArrowDown, FileText, Mail, Notebook } from 'lucide-react';
+import { ArrowDown, FileText, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 export function Hero() {
@@ -110,25 +110,25 @@ export function Hero() {
             View Resume
           </Button>
         </motion.div>
-
-        {/* Scroll Indicator */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.6, delay: 0.8 }}
-          className="absolute bottom-8 left-1/2 -translate-x-1/2"
-        >
-          <motion.button
-            onClick={() => scrollToSection('#about')}
-            className="flex flex-col items-center gap-2 text-muted-foreground hover:text-white transition-colors"
-            animate={{ y: [0, 8, 0] }}
-            transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
-          >
-            <span className="text-xs uppercase tracking-widest">Scroll</span>
-            <ArrowDown className="h-4 w-4" />
-          </motion.button>
-        </motion.div>
       </div>
+
+      {/* Scroll Indicator - outside content div so it's anchored to viewport bottom */}
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.6, delay: 0.8 }}
+        className="absolute bottom-6 left-1/2 -translate-x-1/2 z-10"
+      >
+        <motion.button
+          onClick={() => scrollToSection('#about')}
+          className="flex flex-col items-center gap-2 text-muted-foreground hover:text-white transition-colors"
+          animate={{ y: [0, 8, 0] }}
+          transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
+        >
+          <span className="text-xs uppercase tracking-widest">Scroll</span>
+          <ArrowDown className="h-4 w-4" />
+        </motion.button>
+      </motion.div>
 
       {/* Bottom Gradient Fade */}
       <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-background to-transparent" />
