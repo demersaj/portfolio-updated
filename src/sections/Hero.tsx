@@ -104,7 +104,7 @@ export function Hero() {
             size="lg"
             variant="outline"
             className="border-white/20 hover:bg-white/5 text-white px-8 py-6 text-base rounded-xl"
-            onClick={() => window.open('https://andrew-demers.com/resume.pdf', '_blank')}
+            onClick={() => window.open('/resume.pdf', '_blank')}
           >
             <FileText className="mr-2 h-5 w-5" />
             View Resume

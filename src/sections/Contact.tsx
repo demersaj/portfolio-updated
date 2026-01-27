@@ -7,7 +7,7 @@ const contactLinks = [
     name: 'Resume',
     description: 'Download my CV',
     icon: FileText,
-    href: 'https://andrew-demers.com/resume.pdf',
+    href: '/resume.pdf',
     color: 'from-cyan/20 to-cyan/5',
   },
   {
