@@ -71,7 +71,7 @@ export function Contact() {
             className="text-lg text-muted-foreground max-w-2xl mx-auto"
           >
             Let&apos;s collaborate on building the next generation of AI-powered products. 
-            I&apos;m always open to discussing new opportunities and innovative projects.
+            I&apos;m always open to discussing innovative projects.
           </motion.p>
         </div>
 
