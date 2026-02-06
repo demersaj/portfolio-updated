@@ -4,7 +4,7 @@ import { Briefcase, ExternalLink } from 'lucide-react';
 
 const experiences = [
   {
-    title: 'Senior Technical Product Manager - AI Application',
+    title: 'Senior Technical Product Manager',
     company: 'webAI',
     period: 'Feb. 2026 - Present',
     description: 'Own product strategy and execution for a decentralized, privacy-first AI platform enabling secure, on-device and peer-to-peer intelligence delivery. Lead cross-functional initiatives across AI infrastructure, on-device LLM inference, and distributed architecture; drive roadmap and long-term vision with Engineering, Design, and Leadership.',
@@ -12,7 +12,7 @@ const experiences = [
     url: 'https://webai.com',
   },
   {
-    title: 'Technical Product Manager - AI Application',
+    title: 'Technical Product Manager - AI Applications',
     company: 'webAI',
     period: 'March 2024 - Feb. 2026',
     description: 'Led the end-to-end development of a no-code AI/ML platform, empowering users to build and deploy models without coding. Bridged complex technology with intuitive design and optimized for Apple hardware to enhance on-device performance and privacy.',
