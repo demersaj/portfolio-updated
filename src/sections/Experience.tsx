@@ -4,10 +4,18 @@ import { Briefcase, ExternalLink } from 'lucide-react';
 
 const experiences = [
   {
+    title: 'Senior Technical Product Manager - AI Application',
+    company: 'webAI',
+    period: 'Feb. 2026 - Present',
+    description: 'Own product strategy and execution for a decentralized, privacy-first AI platform enabling secure, on-device and peer-to-peer intelligence delivery. Lead cross-functional initiatives across AI infrastructure, on-device LLM inference, and distributed architecture; drive roadmap and long-term vision with Engineering, Design, and Leadership.',
+    skills: ['Product Strategy', 'AI/ML', 'Distributed Systems', 'Cross-Functional Leadership', 'On-Device Inference'],
+    url: 'https://webai.com',
+  },
+  {
     title: 'Technical Product Manager - AI Application',
     company: 'webAI',
-    period: 'March 2024 - Present',
-    description: 'Lead the end-to-end development of a no-code AI/ML platform, empowering users to build and deploy models without coding. A key achievement was bridging complex technology with intuitive design, which included optimizing for Apple hardware to enhance on-device performance and privacy. The result was a significant reduction in time-to-market and cloud costs while increasing enterprise contract value.',
+    period: 'March 2024 - Feb. 2026',
+    description: 'Led the end-to-end development of a no-code AI/ML platform, empowering users to build and deploy models without coding. Bridged complex technology with intuitive design and optimized for Apple hardware to enhance on-device performance and privacy.',
     skills: ['AI/ML', 'Product Strategy', 'No-Code Platform', 'Apple Silicon'],
     url: 'https://webai.com',
   },
